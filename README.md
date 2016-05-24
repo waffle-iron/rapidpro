@@ -1,6 +1,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/rapidpro/rapidpro/badge.svg?branch=master)](https://coveralls.io/github/rapidpro/rapidpro?branch=master)
 
-# RapidPro     
+# RapidPro
 
 RapidPro is a hosted service for visually building interactive messaging applications.
 To learn more, please visit the project site at http://rapidpro.github.io/rapidpro.
@@ -17,3 +17,41 @@ In brief, the Affero license states you can use the RapidPro source for any proj
 
 RapidPro has dual copyright holders of UNICEF and Nyaruka.
 
+
+
+## local development set-up
+
+brew install redis
+
+to run redis
+
+redis-server
+
+sudo
+
+npm install -g coffee-script
+sudo npm install -g less
+
+
+
+create database temba;
+
+create role temba with SUPERUSER;
+
+alter role temba with login;
+
+Connect to database temba as temba
+
+\c temba temba;
+
+
+
+
+
+brew install geos
+
+
+
+Installing sms chanels client locally.
+
+If you get a challenge then download textit client, register it with the online account. This will associate it with your google account and rapid pro servers for push notifications. Then reset it and associate it with your local instance.
