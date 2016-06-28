@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/altzero/rapidpro.png?label=ready&title=Ready)](https://waffle.io/altzero/rapidpro)
 [![Coverage Status](https://coveralls.io/repos/github/rapidpro/rapidpro/badge.svg?branch=master)](https://coveralls.io/github/rapidpro/rapidpro?branch=master)
 
 # RapidPro
